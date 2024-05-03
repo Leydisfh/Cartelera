@@ -1,0 +1,37 @@
+.footer__container{
+    background-color: #333;
+    color: #fff;
+    padding:  1rem;
+    text-align: center;
+  
+}
+
+.footer__fixed{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.footer__container-buttons{
+    display: flex;
+    justify-content: center;
+    gap: .6rem;
+}
+
+.footer__container-buttons button{
+    background-color: #fff;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+}
+
+.footer__container-buttons button:hover{
+    background-color: #74C0FC;
+    color: #fff;
+    font-weight: 600;
+}
